@@ -1,3 +1,4 @@
+# Q. Convert inches to centimeters.
 def inch_to_cms(inch):
 
     return inch * 2.54

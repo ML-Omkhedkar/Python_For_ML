@@ -1,4 +1,4 @@
-
+# Q. calculate the sum of first n natural numbers.
 
 def sum(n):
     if n==1:

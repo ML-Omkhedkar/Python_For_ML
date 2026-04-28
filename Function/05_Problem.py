@@ -1,3 +1,5 @@
+# Q. Print the following pattern of stars using recursion.
+
 def pattern(n):
     if n==0:
         return
