@@ -26,6 +26,7 @@
 # print(f"Your Odd Numbers Lengh Is {len(odd)}")    
 
 # Q1 End Here
+# =========================================
 
 # Question: Using output of Q1 Create a new list:
 # Only even numbers
@@ -46,6 +47,7 @@
 #     print(i**2)
 
 # Q2 Ends here
+# =========================================
 
 # Question:
 # From original list:
@@ -53,31 +55,43 @@
 
 # =========================================
 
-l = [1,2,2,3,1,6,6,7,8,8,9,9,9,9,9,8,9]
-freq = {}
+# l = [1,2,2,3,1,6,6,7,8,8,9,9,9,9,9,8,9]
+# freq = {}
 
-for i in l:
-    if i in freq:
-        freq[i] += 1
+# for i in l:
+#     if i in freq:
+#         freq[i] += 1
 
-    else:
-        freq[i] = 1       
-print(freq)
+#     else:
+#         freq[i] = 1       
+# print(freq)
 
 # Q3 Ends Here
+# =========================================
 
 # Question:From list:
 # Print:Unique elements
 # Duplicate elements
 
-l = [1,2,2,3,1,6,6,7,8,8,9,9,9,9,9,8,9]
-unique = []
-copy = []
+# =========================================
 
-for i in l:
-    if i in unique:
-        unique[i] =+ 1
+# l = [1,2,4,5,6,5,4,2,3,8,9,4]
+# unique = []
+# duplicates = [] 
 
-print(unique)
+# for i in l:
+#     if i in unique:
+#         if i not in duplicates:
+#             duplicates.append(i)
 
-print(copy)
+#     else:
+#         unique.append(i)  
+
+# print(f"unique: {unique} \n Duplicates: {duplicates}")
+
+# Q4 End
+
+# =========================================
+
+
+
