@@ -172,4 +172,49 @@ for n in num:
     
 print(f"Your ans Is {sum_ofn}")
 
-# Q7 
+#==========================================================
+
+
+# ### 8. Find Duplicates
+
+# **Question:** List me kaunse elements duplicate hai wo nikal
+# **Example:** `[1,2,2,3,4,4] → [2,4]`
+# **Samjha:**
+# Ek `seen` set aur ek `duplicate` list bana — agar element already seen me hai → duplicate
+
+l = [1,2,3,4,5,4,3,]
+
+seen = set()
+duplicates = set() # Set use kar rahe hain taaki duplicate khud repeat na ho
+for x in l:
+    if x in seen:
+        duplicates.add(x)
+    else:
+        seen.add(x)
+
+print(seen)
+print(duplicates)
+
+### 9. Second Largest Number
+
+# **Question:** List ka second largest number find kar
+# **Example:** `[10, 20, 5, 8] → 10`
+# **Samjha:**
+# Sort kar ya manually 2 variables maintain kar (max & second max)
+
+
+l = [1,2,3,7,8,11,55,66]
+largest = 0
+second_largest = 0
+
+for n in l:
+    if n > largest:
+        # Before updating largest, move the old largest to second_largest
+        second_largest = largest
+        largest = n
+    elif n < second_largest and n != largest:
+        # If n is not the biggest but bigger than our current second
+        second_largest = n
+
+print(f"Largest: {largest}")   
+print(f"Second Largest: {second_largest}")
